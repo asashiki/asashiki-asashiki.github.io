@@ -59,8 +59,9 @@ function showPopup(anime) {
     popup.innerHTML = `
         <h2>跳转下载或观看</h2>
         <a href="https://search.bilibili.com/all?keyword=${encodeURIComponent(anime.name_cn)}" target="_blank">bilibili</a>
-        <a href="https://dmhy.b168.net/topics/list?keyword=${encodeURIComponent(anime.name_cn)}" target="_blank">动漫花园</a>
+        <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(anime.name_cn)}" target="_blank">YouTube</a>
          <a href="https://mikanani.me/Home/Search?searchstr=${encodeURIComponent(anime.name_cn)}" target="_blank">蜜柑计划</a>
+         <a href="https://dmhy.b168.net/topics/list?keyword=${encodeURIComponent(anime.name_cn)}" target="_blank">动漫花园</a>
         <a href="https://www.anfuns.cc/search.html?wd=${encodeURIComponent(anime.name_cn)}&submit=" target="_blank">AnFuns</a>
          <a href="https://www.mxdm6.com/search/-------------.html?wd=${encodeURIComponent(anime.name_cn)}" target="_blank">MX动漫</a>
          <a href="https://dick.xfani.com/search.html?wd=${encodeURIComponent(anime.name_cn)}" target="_blank">稀饭动漫</a>
